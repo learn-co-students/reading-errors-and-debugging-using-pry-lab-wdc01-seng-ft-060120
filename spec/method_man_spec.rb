@@ -1,4 +1,5 @@
 require_relative '../fix_using_tests/method_man'
+require 'pry'
 
 describe "method_man" do
   it "`start_game` should return greetings for each players name" do
